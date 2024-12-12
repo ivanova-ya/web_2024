@@ -10,23 +10,79 @@
 </head>
 <body>
     <header>
+        <img src="images/Logo .png" alt="Логотип" width="100" height="100">
         <h1>Архивно-образовательный портал</h1>
             <nav>
                 <ul>
-                    <li><a href="#home">Главная</a></li>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#home">Найти</a></li>
+                    <li><a href="#about">О проекте</a></li>
+                    <li><a href="#contact">Источники</a></li>
+                    <li><a href="login.html">Войти</a></li>
                 </ul>
             </nav>
+            
     </header>
-    <main>
-        <section id="home">
-            <h2>Добро пожаловать</h2>
-            <p>Основной контент страницы.</p>
+    <main class="main">
+        <section>
+            <div>
+                <h2>Узнайте больше о исторических личностях</h2>
+                <p>
+                    Рассматривайте архивные документы XVIII до начала ХХ века.
+                    Можно не просматривать рукописные записи,
+                    а просто искать — как в интернете.
+                </p>
+                <form>
+                    <p><input type="search" name="q" placeholder="Поиск по сайту">
+                        <input type="submit" value="Найти"></p>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Что особенного</h2>
+                <h3>Поиск как в интернете</h3>
+                <p>Вводите фамилию исторической личности, места или названия. 
+                Поиск покажет документы в которых они встречаются.</p>
+                <p><a href="#how_search">Как искать</a></p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Каталог архивов</h2>
+                <ul>
+                    <li>
+                        <p>ГБУ "Центральный государственный архив города Москвы"</p>
+                        <img src="images/logo_1.png" alt="Логотип гос. архива" width="70" >
+                    </li>
+                    <li>
+                        <p>ГБУ "Объединенный государственный архив Оренбургской области"</p>
+                        <img src="images/logo_2.png" alt="Логотип гос. архива" width="100" >
+                    </li>
+                    <li>
+                        <p>ГКУ "Государственный архив Астраханской области"</p>
+                        <img src="images/Logo_3.png" alt="Логотип гос. архива" width="100" >
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
-        <footer>
-            <p>© 2024 Все права защищены.</p>
-        </footer>
+    <footer>
+        <p>Сайт создан Ивановой Юлианой группа Об-42</p>
+        <p>© 2024 Все права защищены.</p>
+        <ul>
+            <li><a href="#">Правовая оговорка</a></li>
+            <li><a href="#">Пользовательское соглашение</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+    </footer>
+    <section> 
+        <form action="/">
+            <h1>Вход в личный кабинет</h1>
+            <input type="email, tel" name="phone" placeholder="Номер телефона или почта" required>
+            <input type="password" name="password" placeholder="Пароль" required>
+            <button>Войти</button>
+        </form>
+    </section>
 </body>
+
         
