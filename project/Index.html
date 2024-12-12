@@ -9,75 +9,80 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="images/Logo .png" alt="Логотип" width="100" height="100">
-        <h1>Архивно-образовательный портал</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Найти</a></li>
-                    <li><a href="#about">О проекте</a></li>
-                    <li><a href="#contact">Источники</a></li>
-                    <li><a href="login.html">Войти</a></li>
+    <header class="header">
+        <img class="header__logo" src="images/Logo .png" alt="Логотип" width="100" height="100">
+        <h1 class="header__title">Архивно-образовательный портал</h1>
+            <nav class="header__menu">
+                <ul class="menu">
+                    <li class="menu__item menu__item--active">
+                        <a class="menu__link" href="#home">Найти</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#about">О проекте</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contact">Источники</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="login.html">Войти</a>
+                    </li>
                 </ul>
             </nav>
-            
     </header>
     <main class="main">
-        <section>
-            <div>
-                <h2>Узнайте больше о исторических личностях</h2>
-                <p>
+        <section class="about">
+            <h2 class="about__title">Узнайте больше о исторических личностях</h2>
+                <p class="about__description">
                     Рассматривайте архивные документы XVIII до начала ХХ века.
                     Можно не просматривать рукописные записи,
                     а просто искать — как в интернете.
                 </p>
-                <form>
-                    <p><input type="search" name="q" placeholder="Поиск по сайту">
-                        <input type="submit" value="Найти"></p>
+            <div class="about__search"> 
+                <form class="about__form">
+                    <input type="search" name="q" placeholder="Поиск по сайту">
+                    <input type="submit" value="Найти">
                 </form>
-            </div>
+            </div>   
         </section>
-        <section>
+        <section class="tutorial">
             <div>
-                <h2>Что особенного</h2>
-                <h3>Поиск как в интернете</h3>
-                <p>Вводите фамилию исторической личности, места или названия. 
+                <h2 class="tutorial__title">Что особенного</h2>
+                <h3 class="tutorial__slogan">Поиск как в интернете</h3>
+                <p class="tutorial__desc">Вводите фамилию исторической личности, места или названия. 
                 Поиск покажет документы в которых они встречаются.</p>
-                <p><a href="#how_search">Как искать</a></p>
+                <p class="tutorial__button"><a href="#how_search">Как искать</a></p>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Каталог архивов</h2>
-                <ul>
-                    <li>
-                        <p>ГБУ "Центральный государственный архив города Москвы"</p>
-                        <img src="images/logo_1.png" alt="Логотип гос. архива" width="70" >
+        <section class="catalog_menu">
+                <h2 class="catalog__title">Каталог архивов</h2>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">ГБУ "Центральный государственный архив города Москвы"</a>
+                        <img class="catalog__logo" src="images/logo_1.png" alt="Логотип гос. архива" width="70" >
                     </li>
-                    <li>
-                        <p>ГБУ "Объединенный государственный архив Оренбургской области"</p>
-                        <img src="images/logo_2.png" alt="Логотип гос. архива" width="100" >
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">ГБУ "Объединенный государственный архив Оренбургской области"</a>
+                        <img class="catalog__logo" src="images/logo_2.png" alt="Логотип гос. архива" width="100" >
                     </li>
-                    <li>
-                        <p>ГКУ "Государственный архив Астраханской области"</p>
-                        <img src="images/Logo_3.png" alt="Логотип гос. архива" width="100" >
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">ГКУ "Государственный архив Астраханской области"</a>
+                        <img class="catalog__logo" src="images/Logo_3.png" alt="Логотип гос. архива" width="100" >
                     </li>
                 </ul>
-            </div>
         </section>
     </main>
-    <footer>
-        <p>Сайт создан Ивановой Юлианой группа Об-42</p>
-        <p>© 2024 Все права защищены.</p>
-        <ul>
-            <li><a href="#">Правовая оговорка</a></li>
-            <li><a href="#">Пользовательское соглашение</a></li>
-            <li><a href="#">Политика конфиденциальности</a></li>
+    <footer class="footer">
+        <p class="footer__title">Сайт создан Ивановой Юлианой группа Об-42</p>
+        <p class="footer__title">© 2024 Все права защищены.</p>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__button" href="#">Правовая оговорка</a></li>
+            <li class="menu__item"><a class="menu__button" href="#">Пользовательское соглашение</a></li>
+            <li class="menu__item"><a class="menu__button" href="#">Политика конфиденциальности</a></li>
             </ul>
     </footer>
-    <section> 
-        <form action="/">
-            <h1>Вход в личный кабинет</h1>
+    <section class="login"> 
+        <form class="login__form" action="/">
+            <h1 class="login__title">Вход в личный кабинет</h1>
             <input type="email, tel" name="phone" placeholder="Номер телефона или почта" required>
             <input type="password" name="password" placeholder="Пароль" required>
             <button>Войти</button>
