@@ -1,0 +1,12 @@
+header {
+    margin:auto;
+    background: rgb(132,99,88);
+    background: linear-gradient(180deg, rgba(132,99,88,1) 0%, rgba(222,190,179,1) 49%, rgba(223,212,176,1) 100%);
+}
+.menu__link{
+    font-family: "HelveticaLight";
+    font-size: 20px;
+    font-style:normal;
+    line-height: normal;
+    color: white;
+}
