@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: 'Roboto',Arial, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+
+    overflow-x: hidden;
+   }
+
+   img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.button{
+    background-color: aqua;
+    padding: 5px 10px;
+    font-size: 26px;
+    border-radius: 15px;
+    border: none;
+}

@@ -1,0 +1,29 @@
+/* Шапка (header) */
+.header {
+    padding: 0 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#7fb9fa ;
+
+}
+.header__menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+.menu__link{
+    text-decoration: none;
+    color: rgb(151, 216, 48);
+    font-size: 28px;
+    transition: 0.3s all ease-out;
+}
+.menu__link:hover{
+    text-decoration: underline;
+}
