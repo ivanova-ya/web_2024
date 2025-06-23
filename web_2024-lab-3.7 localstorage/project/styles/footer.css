@@ -1,0 +1,13 @@
+.footer {
+    position: relative;
+    z-index: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+    background: linear-gradient(180deg, #262627, #4e4846 197.75%), #262627;
+    display: block;
+    unicode-bidi: isolate;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+
+}
